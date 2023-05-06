@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#597D35"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_text_border"
+
+        android:backgroundTint="#B2D3C2"
+        android:hint="title"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/etBudget"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="#B2D3C2"
+        android:ems="10"
+        android:hint="budget" />
+
+    <EditText
+        android:id="@+id/etAbout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="#B2D3C2"
+        android:ems="10"
+        android:hint="about" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#234F1E"
+        android:layout_marginTop="20dp"
+        android:text="Update Data" />
+
+
+</LinearLayout>

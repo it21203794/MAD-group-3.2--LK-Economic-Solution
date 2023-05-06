@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Myapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".find_selected_project"
+            android:exported="false" />
+        <activity
+            android:name=".find_all_projects"
+            android:exported="false" />
+        <activity
+            android:name=".project_view"
+            android:exported="false" />
+        <activity
+            android:name=".find_gigs"
+            android:exported="false" />
+        <activity
+            android:name=".gig_view"
+            android:exported="false" />
+        <activity
+            android:name=".gig_view"
+            android:exported="false" />
+        <activity
+            android:name=".view_details"
+            android:exported="false" />
+        <activity
+            android:name=".create_new_gig"
+            android:exported="false" />
+        <activity
+            android:name=".become_a_freelancer"
+            android:exported="false" />
+        <activity
+            android:name=".create_new_project"
+            android:exported="false" />
+        <activity
+            android:name=".post_a_project"
+            android:exported="false" />
+        <activity
+            android:name=".find_freelancers"
+            android:exported="false" />
+        <activity
+            android:name=".find_project"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
