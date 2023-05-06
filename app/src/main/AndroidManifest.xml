@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Myapp"
         tools:targetApi="31">
         <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
             android:name=".find_selected_project"
             android:exported="false" />
         <activity
