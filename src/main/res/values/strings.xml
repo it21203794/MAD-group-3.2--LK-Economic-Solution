@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LK</string>
+    <string name="add_hospital">Add Hospital</string>
+    <string name="add_image">Add Image</string>
+    <string name="write_discription">Write Discription</string>
+    <string name="add_mobile_no">Add mobile NO:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="donation">DONATION</string>
+    <string name="hospital">HOSPITAL</string>
+    <string name="orphanage">ORPHANAGE</string>
+    <string name="school">SCHOOL</string>
+    <string name="foundation">FOUNDATION</string>
+    <string name="kdu_hospital">KDU Hospital</string>
+    <string name="add_new">ADD NEW</string>
+    <string name="tel_07xxxxxxxx">TEL: 07XXXXXXXX</string>
+    <string name="open_hours_will_update_soon">OPEN HOURS: will update soon</string>
+    <string name="email_uhkdu_kdu_ac_lk">EMAIL: uhkdu@kdu.ac.lk</string>
+    <string name="adress_university_hospital_kdu_werahera">ADRESS: UNIVERSITY HOSPITAL KDU WERAHERA</string>
+    <string name="city_boralesgamuwa_10290">CITY: Boralesgamuwa (10290)</string>
+    <string name="hospitala">HOSPITAL</string>
+    <string name="apeksha_hospital">Apeksha Hospital</string>
+    <string name="jayawardanapura_general_hospital">Jayawardanapura General Hospital</string>
+    <string name="kdu_hospitall">KDU Hospital</string>
+    <string name="kalubovila_hospitalll">Kalubovila Hospital</string>
+    <string name="view">view</string>
+    <string name="view1">view</string>
+    <string name="view2">view</string>
+    <string name="view4">view</string>
+</resources>
