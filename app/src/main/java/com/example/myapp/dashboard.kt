@@ -47,6 +47,12 @@ class dashboard : AppCompatActivity() {
             startActivity(intent)
 
         }
+        var imageView37 = findViewById<ImageButton>(R.id.imageView37)
+        imageView37.setOnClickListener{
+            val intent = Intent(this, home_page::class.java)
+            startActivity(intent)
+
+        }
 
 
 
