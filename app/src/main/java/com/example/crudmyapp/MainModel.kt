@@ -9,7 +9,7 @@ class MainModel {
 
     internal constructor() {}
 
-    // Parameterized constructor to initialize the data model
+    // Parameterized constructor to initialize the data model.
     constructor(itemName: String?, price: String?, description: String?) {
         this.itemName = itemName
         this.price = price
