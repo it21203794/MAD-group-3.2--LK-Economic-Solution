@@ -18,6 +18,7 @@ import com.google.firebase.database.ValueEventListener
 
 class find_freelancers : AppCompatActivity() {
 
+    // Declare required variables
     private lateinit var gigRecyclerView: RecyclerView
     private lateinit var tvLoadingData: TextView
     private lateinit var gigList: ArrayList<Gig>
@@ -27,21 +28,28 @@ class find_freelancers : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.find_freelancers)
 
+        // Initialize the RecyclerView and loading TextView
         gigRecyclerView = findViewById(R.id.gigList)
         tvLoadingData = findViewById(R.id.tvLoadingData)
         gigRecyclerView.layoutManager = LinearLayoutManager(this)
         gigRecyclerView.setHasFixedSize(true)
 
+        // Initialize the gigList as an empty ArrayList
         gigList = arrayListOf<Gig>()
 
+        // Retrieve gigs data
         getGigsData()
     }
+    // Function to retrieve gigs data from the database
     private fun getGigsData() {
+        // Hide the RecyclerView and show loading text
         gigRecyclerView.visibility = View.GONE
         tvLoadingData.visibility = View.VISIBLE
 
+        // Get a reference to the "Gig" node in the Firebase database
         dbRef = FirebaseDatabase.getInstance().getReference("Gig")
 
+        // Get a reference to the "Gig" node in the Firebase database
         dbRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 gigList.clear()
@@ -60,6 +68,7 @@ class find_freelancers : AppCompatActivity() {
                             intent.putExtra("gigId", gigList[position].gigId)
                             intent.putExtra("category", gigList[position].category)
                             intent.putExtra("mainSkill", gigList[position].mainSkill)
+                            intent.putExtra("about12", gigList[position].about12)
                             startActivity(intent)
 
                         }
