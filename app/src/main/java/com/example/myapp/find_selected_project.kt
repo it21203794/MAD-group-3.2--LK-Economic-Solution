@@ -23,6 +23,9 @@ class find_selected_project : AppCompatActivity() {
 
     }
 
+
+
+
     private fun initView(){
         projectId = findViewById(R.id.projectId)
         projectTitle = findViewById(R.id.projectTitle)
