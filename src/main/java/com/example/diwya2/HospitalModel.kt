@@ -6,8 +6,4 @@ class HospitalModel (
     var editMail: String?=null,
     var editCity: String?=null,
 
-
-
-
-
     )
