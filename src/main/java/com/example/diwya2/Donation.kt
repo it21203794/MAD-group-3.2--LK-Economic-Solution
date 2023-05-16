@@ -10,11 +10,7 @@ class Donation : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_donation)
 
-
-
         val hospital=findViewById<Button>(R.id.button1)
-
-
 
         hospital.setOnClickListener {
             val intent = Intent( this,MainActivity::class.java)
