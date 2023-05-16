@@ -1,7 +1,7 @@
 package com.example.crudmyapp
 
 
-// Class declaration
+// Class declaration.
 class MainModel {
     var itemName: String? = null
     var price: String? = null
