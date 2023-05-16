@@ -12,7 +12,7 @@ class home_page : AppCompatActivity() {
         setContentView(R.layout.home_page)
 
 
-        // Set click listener for the image button
+        // Set click listener for the image button.
         var imageButton8 = findViewById<ImageButton>(R.id.imageButton8)
         imageButton8.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
