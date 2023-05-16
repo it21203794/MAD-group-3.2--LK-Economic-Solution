@@ -59,7 +59,7 @@ class create_new_gig : AppCompatActivity() {
             about12.error = "Please enter about"
         }
 
-        // Generate a unique gigId using push().key!!
+        // Generate a unique gigId using push().       key!!
         val gigId = dbRef.push().key!!
         // Create a Gig object with the entered data
 
