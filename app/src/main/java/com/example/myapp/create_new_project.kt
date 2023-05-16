@@ -57,7 +57,7 @@ class create_new_project : AppCompatActivity() {
                 pabout.error = "Please enter category"
             }
 
-        // Generate a unique key for the project using push().key
+        // Generate a unique key for the       project using push().key
             val projectId = dbRef.push().key!!
 
         // Create a Project object with the entered data
