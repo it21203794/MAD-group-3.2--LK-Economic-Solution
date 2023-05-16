@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         mainAdapter!!.startListening()
     }
 
-    // Method called when the activity is stopped
+    // Method called when the activity is stopped.
     override fun onStop() {
         super.onStop()
         mainAdapter!!.stopListening()
