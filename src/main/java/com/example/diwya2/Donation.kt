@@ -14,6 +14,8 @@ class Donation : AppCompatActivity() {
 
         val hospital=findViewById<Button>(R.id.button1)
 
+
+
         hospital.setOnClickListener {
             val intent = Intent( this,MainActivity::class.java)
             startActivity(intent)
