@@ -34,7 +34,10 @@ class sing_up : AppCompatActivity() {
             val pass = binding.passET.text.toString()
             val confirmPass = binding.confirmPassEt.text.toString()
 
-            // Check if all fields are non-empty
+            // Check if all fields are   non-empty
+
+
+
             if (email.isNotEmpty() && pass.isNotEmpty() && confirmPass.isNotEmpty()) {
                 // Check if the password matches the confirmed password
                 if (pass == confirmPass) {
