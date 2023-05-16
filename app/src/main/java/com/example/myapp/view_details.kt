@@ -9,6 +9,9 @@ class view_details : AppCompatActivity() {
 
 
 
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.view_details)
