@@ -87,6 +87,10 @@ class post_a_project : AppCompatActivity() {
                         })
 
 
+
+
+
+
                         // Show the projectRecyclerView and hide the loading text after fetching and setting the data
                         projectRecyclerView.visibility = View.VISIBLE
                         rtvLoadingData.visibility = View.GONE
