@@ -28,14 +28,24 @@
         android:backgroundTint="#B2D3C2"
         android:ems="10"
         android:hint="main Skill" />
+    <EditText
+        android:id="@+id/etAbout12"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="#B2D3C2"
+        android:ems="10"
+        android:hint="about" />
 
     <Button
         android:id="@+id/btnUpdateData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:backgroundTint="#234F1E"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#234F1E"
         android:text="Update Data" />
 
 
