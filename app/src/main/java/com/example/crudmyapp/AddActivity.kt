@@ -62,7 +62,7 @@ class AddActivity : AppCompatActivity() {
             }
     }
     //a
-    // Method to clear all input fields
+    // Method to clear all input fields.
     private fun clearAll() {
         itemName!!.setText("")
         price!!.setText("")
