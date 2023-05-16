@@ -33,7 +33,7 @@ class sign_in : AppCompatActivity() {
             val pass = binding.passET.text.toString()
 
 
-            // Check if email and password fields are not empty
+            // Check if email and password fields are not empty..
             if (email.isNotEmpty() && pass.isNotEmpty()) {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
