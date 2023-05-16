@@ -10,6 +10,9 @@ class home_page : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_page)
 
+
+
+
         var imageButton6 = findViewById<ImageButton>(R.id.imageButton6)
         imageButton6.setOnClickListener{
             val intent = Intent(this, dashboard::class.java)
