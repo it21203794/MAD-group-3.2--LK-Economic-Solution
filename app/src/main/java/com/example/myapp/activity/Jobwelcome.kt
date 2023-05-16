@@ -12,7 +12,7 @@ class Jobwelcome : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_jobwelcome)
 
-
+        //directing to application form
         var fetchjobdata = findViewById<Button>(R.id.fetchjobdata)
         fetchjobdata.setOnClickListener {
             val intent = Intent(this, applying::class.java)
