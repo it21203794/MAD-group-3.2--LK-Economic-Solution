@@ -71,6 +71,33 @@
 
 
              </LinearLayout>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:orientation="horizontal">
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="About:"
+                 android:textColor="@color/black"
+                 android:textSize="26sp"
+                 android:textStyle="bold"/>
+
+             <TextView
+                 android:id="@+id/gigAbout12"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="8dp"
+                 android:text="contact"
+                 android:textColor="@color/black"
+                 android:textSize="20sp"
+                 />
+
+
+         </LinearLayout>
 
 
 
