@@ -16,5 +16,7 @@ class KDU : AppCompatActivity() {
             val intent = Intent( this,Addhospital::class.java)
             startActivity(intent)
         }
+
+
     }
 }
