@@ -58,6 +58,10 @@ class project_view : AppCompatActivity() {
         projectAbout.text = intent.getStringExtra("pabout")
     }
 
+
+
+
+
     private fun deleteRecord(Id:String){
         val dbRef = FirebaseDatabase.getInstance().getReference("Project").child(Id)
         val mTask = dbRef.removeValue()
