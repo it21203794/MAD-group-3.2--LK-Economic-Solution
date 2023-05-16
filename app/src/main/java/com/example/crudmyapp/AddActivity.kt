@@ -18,7 +18,7 @@ class AddActivity : AppCompatActivity() {
     var btnAdd: Button? = null
     var btnBack: Button? = null
 
-    // Method called when the activity is created
+    // Method called when the activity is created.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add)
