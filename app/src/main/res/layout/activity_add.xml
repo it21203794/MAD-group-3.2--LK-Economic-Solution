@@ -61,30 +61,15 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="100dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/rounded"
         android:gravity="center"
         android:id="@+id/txtDescription"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="5dp"
-        android:text="Image Url"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="@drawable/rounded"
-        android:gravity="center"
-        android:id="@+id/txtImageUrl"/>
+
 
     <Button
         android:layout_width="match_parent"
@@ -108,7 +93,7 @@
         android:text="Back"
         android:textSize="21dp"
         android:textAllCaps="false"
-        android:backgroundTint="#EF6FB5"
+        android:backgroundTint="#ff4747"
         android:gravity="center"
         android:layout_gravity="center"
         android:id="@+id/btnBack"/>
