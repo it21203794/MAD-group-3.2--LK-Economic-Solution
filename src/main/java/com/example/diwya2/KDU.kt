@@ -17,8 +17,5 @@ class KDU : AppCompatActivity() {
             startActivity(intent)
         }
 
-
-
-
     }
 }
