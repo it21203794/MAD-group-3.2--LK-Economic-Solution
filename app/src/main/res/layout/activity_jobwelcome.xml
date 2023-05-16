@@ -65,25 +65,4 @@
         app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
 
 
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="83dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.914"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profile" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Kasun Bandara"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
