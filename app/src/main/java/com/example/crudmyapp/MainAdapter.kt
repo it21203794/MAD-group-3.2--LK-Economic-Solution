@@ -72,7 +72,7 @@ class MainAdapter
                 map["price"] = price.text.toString()
                 map["description"] = description.text.toString()
 
-                // Update the data in the Firebase database
+                // Update the data in the Firebase database.
                 FirebaseDatabase.getInstance().reference.child("Items")
                     .child(getRef(position).key!!).updateChildren(map)
                     .addOnSuccessListener {
