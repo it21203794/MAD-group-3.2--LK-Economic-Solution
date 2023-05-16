@@ -33,7 +33,7 @@ class Sign_In : AppCompatActivity() {
             val pass = binding.passET.text.toString()
 
             //checking its admin account
-           /* fun checkUser() {
+            fun checkUser() {
                 val firebaseUser = firebaseAuth.currentUser!!
                 val ref = FirebaseDatabase.getInstance().getReference("Users")
 
@@ -50,7 +50,7 @@ class Sign_In : AppCompatActivity() {
                         override fun onCancelled(error: DatabaseError) {
                         }
                     } )
-            }*/
+            }
 
             if (email.isNotEmpty() && pass.isNotEmpty()) {
                 firebaseAuth.signInWithEmailAndPassword(email,pass)
