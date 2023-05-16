@@ -25,6 +25,9 @@ class sign_in : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+
         // Set click listener for "button" element
         binding.button.setOnClickListener {
             // Retrieve email and password from input fields
