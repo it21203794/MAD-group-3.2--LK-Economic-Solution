@@ -34,6 +34,12 @@ class ProjectAdapter (private val projectList: ArrayList<Project>) : RecyclerVie
 
             }
 
+
+
+
+
+
+
             override fun getItemCount(): Int {
                 return projectList.size
             }
