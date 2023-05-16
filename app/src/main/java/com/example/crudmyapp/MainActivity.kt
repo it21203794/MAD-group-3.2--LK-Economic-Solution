@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             )
             .build()
 
-        // Initialize the MainAdapter
+        // Initialize the MainAdapter.
 
         mainAdapter = MainAdapter(options)
         recyclerView!!.adapter = mainAdapter
