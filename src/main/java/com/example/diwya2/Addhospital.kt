@@ -13,6 +13,10 @@ class Addhospital : AppCompatActivity() {
   //database variable creator
 
 
+
+
+
+
     private lateinit var dbRef: DatabaseReference
 
     private lateinit var editName: EditText
