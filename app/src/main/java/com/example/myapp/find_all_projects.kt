@@ -28,6 +28,8 @@ class find_all_projects : AppCompatActivity() {
         setContentView(R.layout.find_all_projects)
 
         // Initialize views
+
+
         projectRecyclerView = findViewById(R.id.projectList)
         rtvLoadingData = findViewById(R.id.rtvLoadingData)
         projectRecyclerView.layoutManager = LinearLayoutManager(this)
