@@ -10,6 +10,8 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 class Addhospital : AppCompatActivity() {
+  //database variable creator
+
 
     private lateinit var dbRef: DatabaseReference
 
