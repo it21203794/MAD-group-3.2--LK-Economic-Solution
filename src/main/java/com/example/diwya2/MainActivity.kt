@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+
         view1.setOnClickListener {
             val intent = Intent( this,KDU::class.java)
             startActivity(intent)
