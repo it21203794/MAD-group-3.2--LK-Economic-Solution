@@ -16,7 +16,7 @@ class promise : AppCompatActivity() {
 
          var viewbtn = findViewById<Button>(R.id.viewbtn)
         viewbtn.setOnClickListener {
-            val intent = Intent(this, Fetching::class.java)
+            val intent = Intent(this, Main_home::class.java)
             startActivity(intent)
         }
 
