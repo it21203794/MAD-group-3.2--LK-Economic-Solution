@@ -14,6 +14,7 @@ import com.google.firebase.database.FirebaseDatabase
 
 class applicant_details : AppCompatActivity() {
 
+    //creating variables for TextViews
     private lateinit var tvAplId:TextView
     private lateinit var tvAplName:TextView
     private lateinit var tvAplEmail:TextView
@@ -26,7 +27,7 @@ class applicant_details : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applicant_details)
-
+        //function calling
         initView()
         setValuesToViews()
 

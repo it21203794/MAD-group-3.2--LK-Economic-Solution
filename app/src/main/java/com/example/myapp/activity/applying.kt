@@ -14,6 +14,8 @@ import com.google.firebase.database.FirebaseDatabase
 
 class applying : AppCompatActivity() {
 
+    //creating variables for EditText
+
     private lateinit var fname:EditText
     private lateinit var email:EditText
     private lateinit var phone:EditText
@@ -26,14 +28,23 @@ class applying : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_applying)
+        //back Button
 
+        var imageButton4 = findViewById<ImageButton>(R.id.imageButton4)
+        imageButton4.setOnClickListener {
+            val intent = Intent(this, Jobwelcome::class.java)
+            startActivity(intent)
+        }
+
+
+        //getting userInput Values by ID
         fname = findViewById(R.id.fname)
         email = findViewById(R.id.email)
         phone = findViewById(R.id.phone)
         education = findViewById(R.id.education)
         button3 = findViewById(R.id.button3)
 
-
+        //fireBase connection
         dbRef = FirebaseDatabase.getInstance().getReference("applicant")
 
         button3.setOnClickListener{
@@ -42,18 +53,21 @@ class applying : AppCompatActivity() {
     }
 
     private fun saveapplicantData(){
-        //getting values
+
+        //Assigning String values to variables
         val applicant_name = fname.text.toString()
         val  applicant_email =email.text.toString()
         val  applicant_phone = phone.text.toString()
         val  applicant_education = education.text.toString()
 
+        //Input Validation
         if (applicant_name.isEmpty()){
             fname.error = "Please enter the name"
         }
 
         if (applicant_email.isEmpty()){
             email.error = "Please enter email"
+
         }
 
         if (applicant_phone.isEmpty()){
@@ -64,6 +78,9 @@ class applying : AppCompatActivity() {
             education.error = "Please enter your education level"
         }
 
+
+
+        //Creading a ID to Dataset
         val applicantId = dbRef.push().key!!
 
         val applicant = applicantModel(applicantId,applicant_name,applicant_email,applicant_phone,applicant_education)
@@ -74,7 +91,7 @@ class applying : AppCompatActivity() {
                 Toast.makeText(this, "Data inserted successfully",Toast.LENGTH_LONG).show()
                 val intent = Intent(this, promise::class.java)
                 startActivity(intent)
-
+                //cleaning the previous Values
                 fname.text.clear()
                 email.text.clear()
                 phone.text.clear()
