@@ -64,7 +64,7 @@ class become_a_freelancer : AppCompatActivity() {
                         val gigData = gigSnap.getValue(Gig::class.java)
                         gigList.add(gigData!!)
                     }
-                    // Create and set the adapter for the RecyclerView
+                    // Create      and set the adapter for the RecyclerView
                     val mAdapter = GigAdapter(gigList)
                     gigRecyclerView.adapter = mAdapter
 
