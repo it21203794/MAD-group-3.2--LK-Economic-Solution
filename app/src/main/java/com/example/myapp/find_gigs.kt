@@ -24,7 +24,7 @@ class find_gigs : AppCompatActivity() {
     }
 
     private fun initView(){
-        // Initialize the views by finding their corresponding IDs
+        // Initialize the views by       finding their corresponding IDs
         gigId = findViewById(R.id.gigId)
         gigCategory = findViewById(R.id.gigCategory)
         gigMainSkill = findViewById(R.id.gigMainSkill)
