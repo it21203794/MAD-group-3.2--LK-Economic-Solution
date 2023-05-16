@@ -79,6 +79,24 @@
 
 
             <EditText
+                android:id="@+id/about12"
+                android:layout_width="361dp"
+                android:layout_height="59dp"
+                android:background="@drawable/edit_text_border"
+                android:backgroundTint="#9dc183"
+                android:ems="10"
+                android:hint="about"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.646" />
+
+            <EditText
                 android:id="@+id/category"
                 android:layout_width="361dp"
                 android:layout_height="59dp"
@@ -126,6 +144,19 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.251" />
 
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="About"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <EditText
                 android:id="@+id/mainSkill"
                 android:layout_width="361dp"
@@ -133,16 +164,16 @@
                 android:background="@drawable/edit_text_border"
                 android:backgroundTint="#9dc183"
                 android:ems="10"
+                android:hint="Main skills"
                 android:inputType="textPersonName"
                 android:paddingLeft="20dp"
-                android:hint="Main skills"
 
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.516"
+                app:layout_constraintHorizontal_bias="0.483"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.348" />
+                app:layout_constraintVertical_bias="0.384" />
 
             <ImageButton
                 android:id="@+id/btnCreate"
@@ -154,7 +185,7 @@
 
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.583"
+                app:layout_constraintVertical_bias="0.917"
                 app:srcCompat="@drawable/button_create"
                 tools:ignore="SpeakableTextPresentCheck" />
 
