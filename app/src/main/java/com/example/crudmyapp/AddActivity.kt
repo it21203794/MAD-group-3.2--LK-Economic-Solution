@@ -24,7 +24,7 @@ class AddActivity : AppCompatActivity() {
         setContentView(R.layout.activity_add)
 
 
-        // Initializing variables
+        // Initializing variables.
         itemName = findViewById<View>(R.id.txtItemName) as EditText
         price = findViewById<View>(R.id.txtPrice) as EditText
         description = findViewById<View>(R.id.txtDescription) as EditText
@@ -34,11 +34,11 @@ class AddActivity : AppCompatActivity() {
             insertData()
             clearAll()
         }
-        // Set click listener for the "Back" button
+        // Set click listener for the "Back" button.
         btnBack!!.setOnClickListener { finish() }
     }
 
-    // Method to insert data into Firebase database
+    // Method to insert data into Firebase database.
     private fun insertData() {
         val map: MutableMap<String, Any> = HashMap()
         map["itemName"] = itemName!!.text.toString()
