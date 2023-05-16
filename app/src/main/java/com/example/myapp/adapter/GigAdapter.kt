@@ -13,7 +13,7 @@ class GigAdapter (private val gigList: ArrayList<Gig>) : RecyclerView.Adapter<Gi
     private lateinit var mListener: onItemClickListener
 
 
-    // Interface for defining the item click listener
+    // Interface for defining the item click          listener
     interface onItemClickListener{
         fun onItemClick(position: Int)
     }
