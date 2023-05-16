@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // Method called when the activity is started
+    // Method called when the activity is started.
     override fun onStart() {
         super.onStart()
         mainAdapter!!.startListening()
