@@ -40,7 +40,7 @@ class find_freelancers : AppCompatActivity() {
         // Retrieve gigs data
         getGigsData()
     }
-    // Function to retrieve gigs data from the database
+    // Function to retrieve gigs data from      the database
     private fun getGigsData() {
         // Hide the RecyclerView and show loading text
         gigRecyclerView.visibility = View.GONE
