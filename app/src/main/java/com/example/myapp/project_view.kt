@@ -76,6 +76,7 @@ class project_view : AppCompatActivity() {
     private fun openUpdateDialog(
         projectId: String,
         ptitle: String
+        // Open a dialog to update project details
 
     ){
         val mDialog = AlertDialog.Builder(this)
@@ -122,6 +123,7 @@ class project_view : AppCompatActivity() {
         ptitle: String,
         pbudget: String,
         pabout: String
+        // Update the project data in the Firebase Realtime Database
     ){
         val dbRef = FirebaseDatabase.getInstance().getReference("Project").child(id)
         val projectInfo = Project(id,ptitle,pbudget,pabout)
