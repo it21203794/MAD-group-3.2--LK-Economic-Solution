@@ -143,6 +143,9 @@ class gig_view : AppCompatActivity() {
 
     }
 
+
+
+
     private fun updateGigData(
         id:String,
         category: String,
