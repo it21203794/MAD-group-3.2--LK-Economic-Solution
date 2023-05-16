@@ -13,10 +13,6 @@ class MainActivity : AppCompatActivity() {
         val view1=findViewById<Button>(R.id.btnview1)
 
 
-
-
-
-
         view1.setOnClickListener {
             val intent = Intent( this,KDU::class.java)
             startActivity(intent)
