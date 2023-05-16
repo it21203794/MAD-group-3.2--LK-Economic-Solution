@@ -94,7 +94,7 @@ class MainAdapter
             }
         }
 
-        // Initialize the btnDelete button after the view holder is fully inflated.
+        // Initialize the btnDelete button after the view holder is fully inflated..
         holder.btnDelete.setOnClickListener {
             val builder = AlertDialog.Builder(holder.name.context)
             builder.setTitle("Are you sure?")
