@@ -49,7 +49,7 @@ class MainAdapter
 
             //dialogPlus.show();
 
-            // Get references to the views
+            // Get references to the views.
             val headerView = dialogPlus.headerView
             val name = headerView.findViewById<EditText>(R.id.txtItemName)
 
